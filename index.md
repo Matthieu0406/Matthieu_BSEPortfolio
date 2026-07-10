@@ -97,12 +97,19 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| ELEGOO UNO R3 |Micro Controller - Controlls my motors | $14.99 | <ahttps://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_2?crid=22AGGAFC03FUM&dib=eyJ2IjoiMSJ9.FuS4JJoXz3cMw5_Vi8X2aPdVrhVady4ZAklWxuOPi75hnZG5eudwvsegtvpf1bp41r2ozw3Rbej0OQ8ZCiaqA82Hw7PemtZETZxUYcGh13YAIQ_RXOujPmNVmMnLjuA5_x8y2yoS-LjWdGCcwKH3hA-pUcOWoE13FRInv1N6GtWcehK6Mkk2oz8bYZidRiQH_-TIhqqQEQe1xbDlSjEZRgX3oETVVWpIQpvv3YHNwhg.E0_VJj2l1bWfsJCRjpLdydLxVJacSM2npgTLXEnMU7Y&dib_tag=se&keywords=arduino+uno+r3&qid=1783702555&sprefix=arduino+uno+r%2Caps%2C535&sr=8-2> Link </a> |
-| ELEGOO Nano | Used to control the hand controller | $15.99| <https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo4NzQ5NjY5MDAwMzkyNjYyOjE3ODM3MDQwNTI6c3BfYXRmOjMwMDQ1ODYwMjg0MjEwMjo6MDo6&url=%2FELEGOO-Pre-soldered-ATmega-Compatible-Arduino%2Fdp%2FB0D5LYFRQP%2Fref%3Dsr_1_2_sspa%3Fcrid%3D3M9CBOQFP0QC8%26dib%3DeyJ2IjoiMSJ9.qNDWvja7EkqrTyJUqsmXZsTADyFitb6gVQOjkFnUL2oJefpmVkHt5i2wxKYxoLHMf11b4ngFUT1DQZmeEJm6-DZvMIaSkePFg-q2-OWdU3z5tJN_NCyDAgsHa9lpywOuO6oi10Q6zwvBmDXDw4-MKugflqzFfJS6Ga9LaDUSrwSAYTpWc366tpAxPe1J9DWHQejk7H0RmBgsyFtt-zMaZGujBMwuMVhC8bWddUzgvJc.C3pjwTvkM-3tF2CzPBJL-91NN20u8AQl-zA8-muNvDw%26dib_tag%3Dse%26keywords%3Darduino%2Bnano%26qid%3D1783704052%26sprefix%3Darduino%2Bna%252Caps%252C540%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1> Link </a> |
-| MPU 6050 (IMU)| detect movement and communicate with motors | $11.79| </a https://www.amazon.com/HiLetgo-MPU-6050-Accelerometer-Gyroscope-Converter/dp/B00LP25V1A/ref=sr_1_3?crid=6A7X77H1F7HV&dib=eyJ2IjoiMSJ9.D75LAmktNfzc3v0s7tjJnOkEZ3-takmbKLM2HJ1QWOK43zIdffXbxZ_XUElrIgq7fqOCH9lecY2jzMJee1itUg0BMJay7CZEVutZ4k1GTig9QRJxhkxyCMk1MCXg8c6vdwbR2um-YpuTjJurQQCRzACwBcMUnfFTLDllUJerAnoNuW0e38BGu6SYgjsgs_JmddhmqlBVuB9kmqdPW9AzsyYo-sZG1b6tA3r7KkH2XyY.MVQR7RpSaKpxTxmiU_3ri4SEDVXEYJHJYX3feWEd258&dib_tag=se&keywords=IMU&qid=1783704231&sprefix=imu%2Caps%2C298&sr=8-3> Link </a> |
-| Item Name | What the item is used for | $ | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino UNO R3 | Main microcontroller used to process inputs and control the robot's components | $27.60 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino Nano (Knockoff) | Compact microcontroller used in the handheld controller | $6.99 | <a href="https://www.amazon.com/s?k=Arduino+Nano+V3.0+ATmega328P+knockoff"> Link </a> |
+| MPU6050 IMU (6 Degrees of Freedom) | Measures acceleration and rotation to detect hand movements and gestures | $7.99 | <a href="https://www.amazon.com/s?k=MPU6050+6DOF+gyroscope+accelerometer"> Link </a> |
+| Half Size Solderless Breadboard | Used for building and testing circuits without soldering | $5.99 | <a href="https://www.amazon.com/s?k=half+size+solderless+breadboard"> Link </a> |
+| HC-05 Bluetooth Module x2 | Provides wireless communication between the handheld controller and robot | $9.99 | <a href="https://www.amazon.com/s?k=HC-05+Bluetooth+module"> Link </a> |
+| Male/Male Jumper Wires | Used to connect components on breadboards during prototyping | $6.99 | <a href="https://www.amazon.com/s?k=male+to+male+jumper+wires"> Link </a> |
+| Male/Female Jumper Wires | Used to connect modules and sensors to the microcontrollers | $6.99 | <a href="https://www.amazon.com/s?k=male+to+female+jumper+wires"> Link </a> |
+| 12V DC Motor | Provides movement and power for the robot wheels | $12.99 | <a href="https://www.amazon.com/s?k=12V+DC+gear+motor"> Link </a> |
+| L298N H-Bridge Motor Driver | Controls the speed and direction of the DC motors | $8.99 | <a href="https://www.amazon.com/s?k=L298N+motor+driver"> Link </a> |
+| 9V Battery | Provides portable power for electronic components | $6.99 | <a href="https://www.amazon.com/s?k=9V+battery"> Link </a> |
+| USB-C Powerbank | Provides rechargeable power supply for the robot system | $19.99 | <a href="https://www.amazon.com/s?k=USB+C+power+bank"> Link </a> |
+| Half Size Breadboard | Allows temporary circuit connections for testing electronics | $5.99 | <a href="https://www.amazon.com/s?k=half+size+breadboard"> Link </a> |
+| Robot Car Chassis | Provides the physical frame, wheels, and structure for the robot | $14.99 | <a href="https://www.amazon.com/s?k=robot+car+chassis+kit"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
