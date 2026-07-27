@@ -29,12 +29,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/peg865jYkdk?si=Pbq0_7J3rtQGzmYr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 OVERVIEW
+
 For my second milestone, the focus was connecting all electronic components and bringing the car under control using a custom hand-held controller. By integrating an MPU-6050 accelerometer and gyroscope onto a wearable glove or hand controller, I implemented tilt-based gesture control to drive and steer the vehicle wirelessly based on hand movements.
 
 DESIGN AND DEVELOPMENT
+
 Hand Controller Setup: Built a custom hand controller incorporating an MPU-6050 sensor to detect physical hand orientation (pitch and roll).
 
 Gesture Mapping Software: Developed embedded software to translate tilt angles into movement commands—tilting forward drives the car ahead, tilting back reverses, and leaning left or right steers the car.
@@ -42,11 +44,13 @@ Gesture Mapping Software: Developed embedded software to translate tilt angles i
 System Integration: Wired the Arduino to the L298N motor driver and established communication between the hand controller inputs and motor output controls.
 
 CHALLENGES
+
 Accelerometer Data Drops (I2C Bus Lockup): The MPU-6050 sensor on the hand controller repeatedly got stuck or failed to communicate over the I2C bus (0x68 address missing), requiring extensive multimeter testing, voltage checking, and troubleshooting.
 
 Gesture Calibration & Smoothing: Motion data from hand movements was initially noisy, causing the car to jump or jerk uncontrollably; this required filtering input values to ensure smooth driving responses.
 
 SKILLS DEVELOPED
+
 Gesture & Sensor Integration: Learned how to process 3-axis accelerometer and gyroscope data to read hand orientation in real time.
 
 Advanced Debugging: Gained experience troubleshooting I2C protocol issues, signal thresholds, and logic-level voltage drops using a multimeter and diagnostic sketches.
@@ -54,11 +58,12 @@ Advanced Debugging: Gained experience troubleshooting I2C protocol issues, signa
 Motor & Motion Control: Mastered converting continuous physical motion inputs into discrete motor driver logic commands.
 
 PLAN FOR COMPLETION
+
 Milestone 3: Add final modifications, refine wireless hand controller range, optimize gesture thresholds, and complete full vehicle chassis integration.
 
 # First Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/inS2sAPzMKU?si=dW4qDtg-NDgFor9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 OVERVIEW
 My main project is an autonomous/Bluetooth-controlled robot car powered by an Arduino microcontroller. For my first milestone, the focus was constructing the physical foundation of the vehicle by assembling the aluminium chassis, mounting the DC gear motors, attaching the wheels and other vital components like the micro controller and L298N H-bridge
@@ -88,8 +93,7 @@ Tool Usage: Gained practical experience using small screwdrivers, pliers, and mo
 # Starter Project
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I2zmZ7ad-JA?si=v72tMYZKy2vI-kmm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I2zmZ7ad-JA?si=dT0UwxztJV6SGUgC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 OVERVIEW
 - My starter project is a retro handheld videogame console built around a microcontroller. It features 2 8x8 pixel screen which creates a simple and engaging platform for gaming. The primary focus of this project was to improve my soldering skills.
