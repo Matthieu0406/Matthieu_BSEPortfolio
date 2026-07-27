@@ -25,29 +25,65 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 
-# Second Milestone
+# Second Milestone: Electronics wiring, Code and Hand controller
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+OVERVIEW
+For my second milestone, the focus was connecting all electronic components and bringing the car under control using a custom hand-held controller. By integrating an MPU-6050 accelerometer and gyroscope onto a wearable glove or hand controller, I implemented tilt-based gesture control to drive and steer the vehicle wirelessly based on hand movements.
+
+DESIGN AND DEVELOPMENT
+Hand Controller Setup: Built a custom hand controller incorporating an MPU-6050 sensor to detect physical hand orientation (pitch and roll).
+
+Gesture Mapping Software: Developed embedded software to translate tilt angles into movement commands—tilting forward drives the car ahead, tilting back reverses, and leaning left or right steers the car.
+
+System Integration: Wired the Arduino to the L298N motor driver and established communication between the hand controller inputs and motor output controls.
+
+CHALLENGES
+Accelerometer Data Drops (I2C Bus Lockup): The MPU-6050 sensor on the hand controller repeatedly got stuck or failed to communicate over the I2C bus (0x68 address missing), requiring extensive multimeter testing, voltage checking, and troubleshooting.
+
+Gesture Calibration & Smoothing: Motion data from hand movements was initially noisy, causing the car to jump or jerk uncontrollably; this required filtering input values to ensure smooth driving responses.
+
+SKILLS DEVELOPED
+Gesture & Sensor Integration: Learned how to process 3-axis accelerometer and gyroscope data to read hand orientation in real time.
+
+Advanced Debugging: Gained experience troubleshooting I2C protocol issues, signal thresholds, and logic-level voltage drops using a multimeter and diagnostic sketches.
+
+Motor & Motion Control: Mastered converting continuous physical motion inputs into discrete motor driver logic commands.
+
+PLAN FOR COMPLETION
+Milestone 3: Add final modifications, refine wireless hand controller range, optimize gesture thresholds, and complete full vehicle chassis integration.
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+OVERVIEW
+My main project is an autonomous/Bluetooth-controlled robot car powered by an Arduino microcontroller. For my first milestone, the focus was constructing the physical foundation of the vehicle by assembling the aluminium chassis, mounting the DC gear motors, attaching the wheels and other vital components like the micro controller and L298N H-bridge
+
+DESIGN AND DEVELOPMENT
+Chassis Construction: Mounted the 4 DC motors onto the main aluminium plate using screws and nuts.
+
+Drivetrain Setup: Attached the wheels directly to the motor and screwed it in with a servo screw.
+
+Component Layout: Pre-planned the mounting locations on the chassis for the battery holder, motor driver board (L298N/L293D), Arduino controller, and sensor modules to ensure balanced weight distribution and ample space for wiring and other potential components.
+
+CHALLENGES
+Motor Alignment: Aligning the motors and mounting brackets straight was tricky; if they are slightly crooked, the car drags or pulls to one side when driving forward.
+
+Tiny Hardware & Tight Spaces: Threading the tiny nuts and bolts through the aluminium slots required patience and precise hand tools, taking extra time to ensure nothing was over-tightened and cracked.
+
+Hardware Layout: Planning the layout for the hardware was challenging becuase I had a lot of fairly large componentents and very little space.
+
+SKILLS DEVELOPED
+Mechanical Assembly: Learned how to build and align multi-wheel robotic drivetrains.
+
+Hardware Planning: Understood spatial layout planning for electronics, power supplies, and wiring routing on a small chassis.
+
+Tool Usage: Gained practical experience using small screwdrivers, pliers, and mounting hardware effectively.
+
 
 # Starter Project
 
